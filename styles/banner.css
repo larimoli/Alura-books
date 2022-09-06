@@ -1,0 +1,16 @@
+.banner {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 2em;
+}
+
+.banner.titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner.texto {
+
+}
