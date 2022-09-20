@@ -46,6 +46,10 @@
     display: flex;
 }
 
+.descricao {
+    margin-right: 1em;
+}
+
 .descricao-titulo {
     color: var(--laranja);
     font-weight: 700;
@@ -65,5 +69,16 @@
 }
 
 .botoes-item {
-    padding: 0.5 0;
+    margin: 0 0.5em;
+}
+
+.botoes-ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.estrelinhas {
+    margin-bottom: 0.5em
 }
