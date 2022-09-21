@@ -59,3 +59,54 @@
     font-family: 'Poppins';
     font-weight: 400;
 } 
+
+.container-titulo, .container-titulo-negrito, .opções {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container-titulo, .container-titulo-negrito {
+        font-family: 'Josefin Sans';
+        font-size: 30px;
+        display: flex;
+    }
+
+    .container-titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container-titulo-negrito {
+        font-weight: 700;
+    }
+
+    .opções {
+        display: flex;
+    }
+
+    .opções-item {
+        font-family: 'Poppins';
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 0 1em;
+    }
+
+    .opções-link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container-imagem-transparente, .cabeçalho-menu {
+        display: none;
+    }
+
+    .opções-botão:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções-botão {
+        display: none;
+    }
+}

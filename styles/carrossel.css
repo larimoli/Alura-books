@@ -82,3 +82,9 @@
 .estrelinhas {
     margin-bottom: 0.5em
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel-titulo {
+        padding: 2em 0 0.5em 0;
+    }
+}
