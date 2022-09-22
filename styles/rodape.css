@@ -3,7 +3,7 @@ hr {
 }
 
 .rodape {
-    background-color: var(--cinza-cinza);
+    background-color: var(--cinza-claro);
     padding: 1em;
 }
 
@@ -16,7 +16,7 @@ hr {
     .rodape {
         display: flex;
         justify-content: space-around;
-        padding: 2em;
+        padding: 3em;
     }
 
     .rodape-titulo {
@@ -38,7 +38,7 @@ hr {
         text-transform: uppercase;
         font-size: 14px;
         font-weight: 400;
-        color: var(--cinza-titulo);
+        color: var(--cinza-dois);
         margin-bottom: 1em;
     }
 
@@ -50,4 +50,12 @@ hr {
         margin-left: 0.6em;
     }
 
+}
+
+@media screen and (min-width: 1927px) {
+
+    .lista-rodape {
+        border-left: 1px solid var(--cinza-dois);
+        padding-left: 1em;
+    }
 }

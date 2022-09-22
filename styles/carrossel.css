@@ -55,7 +55,7 @@
     font-weight: 700;
 }
 
-.descricao-titulo-livro {
+.descricao-titulo-livro, .nome-autora {
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
@@ -106,5 +106,39 @@
     .card {
         width: 50%;
         margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1927px) {
+
+    .carrossel-container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descricao-titulo {
+        font-size: 32px;
+    }
+
+    .descricao-texto {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3.5em;
+    }
+
+    .descricao {
+        margin-right: 3em;
     }
 }
