@@ -59,12 +59,20 @@
         width: 30%;
     }
 
+    .contato-email::placeholder {
+        display: block;
+    }
+
 }
 
 @media screen and (min-width: 1927px) {
 
     .contato {
         padding: 3em 22vw
+    }
+
+    .contato-email::placeholder {
+        display: block;
     }
 
 }
